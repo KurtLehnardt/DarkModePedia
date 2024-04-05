@@ -1,0 +1,28 @@
+{
+   "manifest_version": 3,
+   "name": "Darkipedia",
+   "description": "Make Wikipedia Dark Again",
+   "version": "1.0.1",
+   "permissions": ["activeTab"],
+   "host_permissions": ["https://*.wikipedia.org/*"],
+   "content_scripts": [
+     {
+       "matches": ["https://*.wikipedia.org/*"],
+       "js": [
+         "lightsOut.js"
+       ],
+       "run_at": "document_idle"
+     }
+   ],
+   "action": {
+     "default_icon": {
+       "16": "images/play16.png",
+       "19": "images/play19.png",
+       "38": "images/play38.png",
+       "48": "images/play48.png",
+       "128": "images/play128.png"
+     },
+     "default_title": "LightsOut"
+   }
+ }
+ 

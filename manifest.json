@@ -1,8 +1,8 @@
 {
    "manifest_version": 3,
-   "name": "Darkipedia",
+   "name": "DarkModePedia",
    "description": "Make Wikipedia Dark Again",
-   "version": "1.0.1",
+   "version": "1.0.0",
    "permissions": ["activeTab"],
    "host_permissions": ["https://*.wikipedia.org/*"],
    "content_scripts": [
